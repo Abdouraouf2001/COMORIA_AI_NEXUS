@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-13T17:49:53",
+  "jeu_de_donnees": "Cancer du sein (classification binaire)",
+  "cible": "worst smoothness",
+  "tache": "régression",
+  "variables": [
+    "mean radius",
+    "mean texture",
+    "mean perimeter",
+    "mean area",
+    "mean smoothness",
+    "mean compactness",
+    "mean concavity",
+    "mean concave points",
+    "mean symmetry",
+    "mean fractal dimension",
+    "radius error",
+    "texture error",
+    "perimeter error",
+    "area error",
+    "smoothness error",
+    "compactness error",
+    "concavity error",
+    "concave points error",
+    "symmetry error",
+    "fractal dimension error",
+    "worst radius",
+    "worst texture",
+    "worst perimeter",
+    "worst area",
+    "worst compactness",
+    "worst concavity",
+    "worst concave points",
+    "worst symmetry",
+    "worst fractal dimension",
+    "classe"
+  ],
+  "plis": 5,
+  "metrique": "R²",
+  "note": "",
+  "resultats": [
+    {
+      "Modèle": "Régression linéaire",
+      "Score moyen": 0.8546777486,
+      "Écart-type": 0.0619602773,
+      "Durée (s)": 0.48
+    },
+    {
+      "Modèle": "Gradient boosting",
+      "Score moyen": 0.8447586485,
+      "Écart-type": 0.025590691,
+      "Durée (s)": 4.59
+    },
+    {
+      "Modèle": "Forêt aléatoire",
+      "Score moyen": 0.7675203057,
+      "Écart-type": 0.0324403186,
+      "Durée (s)": 16.42
+    }
+  ]
+}
