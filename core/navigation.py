@@ -28,7 +28,7 @@ def barre_laterale() -> None:
     with st.sidebar:
         afficher_html(
             """
-            <div class="marque-nom">🧠 COMORIA</div>
+            <div class="marque-nom"> COMORIA</div>
             <div class="marque-sous">AI NEXUS</div>
             """
         )
@@ -40,7 +40,7 @@ def barre_laterale() -> None:
             afficher_html(
                 """
                 <div class="statut">
-                <div class="statut-titre vide">● Aucun jeu de données</div>
+                <div class="statut-titre vide"> Aucun jeu de données</div>
                 <div class="statut-texte">Charge un exemple ou un CSV depuis un module.</div>
                 </div>
                 """
@@ -49,7 +49,7 @@ def barre_laterale() -> None:
             afficher_html(
                 f"""
                 <div class="statut">
-                <div class="statut-titre">● Jeu de données actif</div>
+                <div class="statut-titre">Jeu de données actif</div>
                 <div class="statut-texte">{escape(str(st.session_state['df_nom']))}<br>
                 {fmt_entier(df.shape[0])} lignes × {df.shape[1]} colonnes</div>
                 </div>
@@ -103,7 +103,7 @@ def page_accueil() -> None:
             with colonne:
                 if element is None:
                     carte(
-                        "🇰🇲",
+                      
                         "ComorIA Technologies",
                         "Développer des solutions technologiques adaptées aux besoins locaux.",
                     )
