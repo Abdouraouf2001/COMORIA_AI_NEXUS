@@ -102,7 +102,7 @@ def panneau_donnees() -> pd.DataFrame | None:
         st.success(message)
 
     df = st.session_state["df"]
-    titre = "📁 Jeu de données"
+    titre = "Jeu de données"
     if df is not None:
         titre += (
             f" : {st.session_state['df_nom']} "
